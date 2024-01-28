@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Fullscreen</name>
+    <events>
+        <event-group description="" sid="420103723067933" title="Fullscreen2">
+            <sub-events>
+                <event-block sid="169072139241681">
+                    <conditions>
+                        <condition id="17" name="On tap object" sid="129864028856050" type="Touch">
+                            <param id="0" name="Object">fullscreen</param>
+                        </condition>
+                        <condition id="10" inverted="1" name="Is fullscreen" sid="886931896834543" type="Browser" />
+                    </conditions>
+                    <actions>
+                        <action id="10" name="Request fullscreen" sid="199577372026761" type="Browser">
+                            <param id="0" name="Mode">3</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="312699312411026">
+                    <conditions>
+                        <condition id="17" name="On tap object" sid="264594365006745" type="Touch">
+                            <param id="0" name="Object">fullscreen</param>
+                        </condition>
+                        <condition id="10" name="Is fullscreen" sid="929733602086493" type="Browser" />
+                    </conditions>
+                    <actions>
+                        <action id="11" name="Cancel fullscreen" sid="169190175367566" type="Browser" />
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>

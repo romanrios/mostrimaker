@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Buttons</name>
+    <events>
+        <event-group description="" sid="539886570366804" title="Buttons">
+            <sub-events>
+                <event-block sid="596965951069680">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="475569373574760" type="Mouse">
+                            <param id="0" name="Object">Buttons</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-28" name="Set effect parameter" sid="214104237350164" type="Buttons">
+                            <param id="0" name="Effect">&quot;Brightness&quot;</param>
+                            <param id="1" name="Parameter index">0</param>
+                            <param id="2" name="Value">110</param>
+                        </action>
+                        <action id="0" name="Set cursor style" sid="620520456472409" type="Mouse">
+                            <param id="0" name="Cursor style">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="751702638519624">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="168171768385931" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-28" name="Set effect parameter" sid="833827825238171" type="Buttons">
+                            <param id="0" name="Effect">&quot;Brightness&quot;</param>
+                            <param id="1" name="Parameter index">0</param>
+                            <param id="2" name="Value">100</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="270790063988500">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="805532170946585" type="Touch">
+                            <param id="0" name="Object">Buttons</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="9" name="Set scale" sid="358085099725638" type="Buttons">
+                            <param id="0" name="Scale">0.9</param>
+                        </action>
+                        <action id="0" name="Play" sid="714695690396171" type="Audio">
+                            <param id="0" name="Audio file">buttonsound</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="376924760517333">
+                    <conditions>
+                        <condition id="4" inverted="1" name="Is touching object" sid="426061751388592" type="Touch">
+                            <param id="0" name="Object">Buttons</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="9" name="Set scale" sid="546810598054652" type="Buttons">
+                            <param id="0" name="Scale">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="193546425544164" title="ButtonsSwap">
+            <sub-events>
+                <event-block sid="900982860721965">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="502722678391354" type="Mouse">
+                            <param id="0" name="Object">ButtonsSwap</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-28" name="Set effect parameter" sid="677452663592500" type="ButtonsSwap">
+                            <param id="0" name="Effect">&quot;Brightness2&quot;</param>
+                            <param id="1" name="Parameter index">0</param>
+                            <param id="2" name="Value">110</param>
+                        </action>
+                        <action id="0" name="Set cursor style" sid="550054456544050" type="Mouse">
+                            <param id="0" name="Cursor style">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="145667791514820">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="752927318662884" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-28" name="Set effect parameter" sid="125127031133766" type="ButtonsSwap">
+                            <param id="0" name="Effect">&quot;Brightness2&quot;</param>
+                            <param id="1" name="Parameter index">0</param>
+                            <param id="2" name="Value">100</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="780369586127090">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="283036839805187" type="Touch">
+                            <param id="0" name="Object">ButtonsSwap</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="189917721517847" type="Audio">
+                            <param id="0" name="Audio file">swap</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="9" name="Set scale" sid="314874587096523" type="ButtonsSwap">
+                            <param id="0" name="Scale">0.9</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="248328667341590">
+                    <conditions>
+                        <condition id="4" inverted="1" name="Is touching object" sid="505469729090623" type="Touch">
+                            <param id="0" name="Object">ButtonsSwap</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="9" name="Set scale" sid="135207727324644" type="ButtonsSwap">
+                            <param id="0" name="Scale">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-block sid="502125753623626">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="182619730516065" type="Mouse">
+                    <param id="0" name="Object">CursorOver</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set cursor style" sid="256796439070139" type="Mouse">
+                    <param id="0" name="Cursor style">0</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

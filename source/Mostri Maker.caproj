@@ -1,0 +1,1396 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>Mostri Maker</name>
+    <description>GGJ 2024 Game</description>
+    <version>1.0.0.0</version>
+    <author>ROMAN RIOS</author>
+    <author-email>romanrios@live.com</author-email>
+    <author-website>http://romanrios.github.io/</author-website>
+    <app-id>com.mycompany.myapp</app-id>
+    <unique-id>12elqhf1dt9zw</unique-id>
+    <saved-with-version>28000</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
+        <plugin author="Scirra" id="Browser" version="1">Browser</plugin>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+        <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
+        <plugin author="Scirra" id="sliderbar" version="1">Slider bar</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="DragnDrop" version="1">Drag &amp; Drop</behavior>
+        <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
+    </used-behaviors>
+    <used-effects>
+        <effect author="Scirra" id="blurhorizontal">Blur Horizontal</effect>
+        <effect author="Scirra" id="blurvertical">Blur Vertical</effect>
+        <effect author="Scirra" id="brightness">Brightness</effect>
+        <effect author="Scirra" id="hsladjust">Adjust HSL</effect>
+    </used-effects>
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>1280</width>
+        <height>720</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <first-layout>TitleScreen</first-layout>
+    <use-loader-layout>1</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Downscaling">Medium quality</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Progress bar only</prop>
+        <prop name="Orientations">Any</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preload sounds">Yes</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-folder name="01">
+            <object-type name="01_bg" sid="982986065735125">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="199857487541437" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\RomanPC\Desktop\bg_01.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="01_body" sid="309211854352792">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="531761334772213" speed="5">
+                        <frame duration="1" hotspotX="0.501656" hotspotY="0.968872" original-source="C:\Users\RomanPC\Desktop\Global Game Jam\Monster Game\monster 01\01_body.png">
+                            <collision-poly>
+                                <point x="0.264901" y="0.237354" />
+                                <point x="0.5" y="0.0544747" />
+                                <point x="0.735099" y="0.237354" />
+                                <point x="0.748344" y="0.513619" />
+                                <point x="0.725166" y="0.77821" />
+                                <point x="0.5" y="0.900778" />
+                                <point x="0.274834" y="0.77821" />
+                                <point x="0.251656" y="0.513619" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-folder name="02">
+            <object-type name="02_bg" sid="387148809591938">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="790516328425779" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\RomanPC\Desktop\Global Game JAm\Monster Game\monster 02\02_bg.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="02_body" sid="380439646491515">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="370738439124943" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.972689" original-source="C:\Users\RomanPC\Desktop\Global Game Jam\Monster Game\monster 02\02_body.png">
+                            <collision-poly>
+                                <point x="0.235887" y="0.241597" />
+                                <point x="0.5" y="0.0672269" />
+                                <point x="0.764113" y="0.241597" />
+                                <point x="0.868952" y="0.516807" />
+                                <point x="0.860887" y="0.892857" />
+                                <point x="0.5" y="0.865546" />
+                                <point x="0.137097" y="0.894958" />
+                                <point x="0.131048" y="0.516807" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-folder name="title screen">
+            <object-type name="title_bg" sid="377461060090173">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Sine" sid="349535978028589">
+                        <behavior id="Sin" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="265263896807712" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\RomanPC\Desktop\Global Game JAm\Monster Game\title_bg.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="title_play" sid="361854884662271">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="772364646011998" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.504673" original-source="C:\Users\RomanPC\Desktop\Global Game JAm\Monster Game\UI\play.png">
+                            <collision-poly>
+                                <point x="0.0191083" y="0.207143" />
+                                <point x="0.308917" y="0" />
+                                <point x="0.689491" y="0.0142857" />
+                                <point x="0.961783" y="0.242857" />
+                                <point x="0.961783" y="0.614286" />
+                                <point x="0.686306" y="0.835714" />
+                                <point x="0.296178" y="0.835714" />
+                                <point x="0.0191083" y="0.585714" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="title_title" sid="565085888599242">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="805149160826329" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\RomanPC\Desktop\Global Game JAm\Monster Game\title_title.png">
+                            <collision-poly>
+                                <point x="0.155128" y="0.238189" />
+                                <point x="0.5" y="0.0944882" />
+                                <point x="0.769231" y="0.354331" />
+                                <point x="0.791026" y="0.5" />
+                                <point x="0.758974" y="0.629921" />
+                                <point x="0.5" y="0.824803" />
+                                <point x="0.134615" y="0.793307" />
+                                <point x="0.112821" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="TiledBackground" sid="778084709242420">
+                <plugin id="TiledBg" />
+                <effects>
+                    <effect-type name="BlurHorizontal">
+                        <effect id="blurhorizontal" />
+                    </effect-type>
+                    <effect-type name="BlurVertical">
+                        <effect id="blurvertical" />
+                    </effect-type>
+                </effects>
+                <texture original-source="C:\Users\RomanPC\Desktop\Global Game JAm\Monster Game\cuadricula.png" />
+            </object-type>
+            <object-type name="Sprite" sid="992870249216577">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="687670072337002" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.51" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="fullscreen" sid="432787170693363">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="961160214677284" speed="5">
+                        <frame duration="1" hotspotX="0.50505" hotspotY="0.5" original-source="C:\Users\RomanPC\Desktop\Global Game JAm\Monster Game\UI\fullscreen.png">
+                            <collision-poly>
+                                <point x="0.145455" y="0.15534" />
+                                <point x="0.5" y="0.00970874" />
+                                <point x="0.845455" y="0.165049" />
+                                <point x="0.909091" y="0.495146" />
+                                <point x="0.781818" y="0.76699" />
+                                <point x="0.5" y="0.834951" />
+                                <point x="0.236364" y="0.747573" />
+                                <point x="0.1" y="0.495146" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-folder name="03">
+            <object-type name="03_body" sid="393073920397501">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="293623974683784" speed="5">
+                        <frame duration="1" hotspotX="0.505474" hotspotY="0.985597" original-source="C:\Users\RomanPC\Desktop\Global Game Jam\Monster Game\monster 03\03_body.png">
+                            <collision-poly>
+                                <point x="0.235401" y="0.218107" />
+                                <point x="0.5" y="0.00617286" />
+                                <point x="0.764599" y="0.218107" />
+                                <point x="0.963504" y="0.516461" />
+                                <point x="0.720803" y="0.765432" />
+                                <point x="0.5" y="0.843621" />
+                                <point x="0.281022" y="0.763375" />
+                                <point x="0.0383212" y="0.516461" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="03_bg" sid="255386350309614">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="539791646457462" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\RomanPC\Desktop\Global Game Jam\Monster Game\monster 03\03_bg.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-folder name="04">
+            <object-type name="04_bg" sid="400072960390045">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="416875269482929" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\RomanPC\Desktop\Global Game Jam\Monster Game\monster 04\04_bg.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="04_body" sid="368014096392900">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="171315534892741" speed="5">
+                        <frame duration="1" hotspotX="0.498322" hotspotY="0.923711" original-source="C:\Users\RomanPC\Desktop\Global Game Jam\Monster Game\monster 04\04_body.png">
+                            <collision-poly>
+                                <point x="0.266778" y="0.2" />
+                                <point x="0.5" y="0.0371134" />
+                                <point x="0.733221" y="0.2" />
+                                <point x="0.899329" y="0.486598" />
+                                <point x="0.692953" y="0.723711" />
+                                <point x="0.5" y="0.995876" />
+                                <point x="0.308725" y="0.72165" />
+                                <point x="0.100671" y="0.486598" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-folder name="05">
+            <object-type name="05_body" sid="785061515499632">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="735761491265148" speed="5">
+                        <frame duration="1" hotspotX="0.500846" hotspotY="0.967603" original-source="C:\Users\RomanPC\Desktop\Global Game Jam\Monster Game\Monster 05\05_body.png">
+                            <collision-poly>
+                                <point x="0.302876" y="0.226782" />
+                                <point x="0.500846" y="0.101512" />
+                                <point x="0.697124" y="0.228942" />
+                                <point x="0.86802" y="0.479482" />
+                                <point x="0.656514" y="0.678186" />
+                                <point x="0.500846" y="0.790497" />
+                                <point x="0.324873" y="0.704104" />
+                                <point x="0.133672" y="0.479482" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="05_bg" sid="234028725687374">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="884340192607432" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\RomanPC\Desktop\Global Game Jam\Monster Game\Monster 05\05_bg.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-folder name="UI">
+            <object-type name="arrow_right" sid="759146072912325">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="770885564678972" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.505376" original-source="C:\Users\RomanPC\Desktop\Global Game Jam\Monster Game\UI\right.png">
+                            <collision-poly>
+                                <point x="0.138889" y="0.16129" />
+                                <point x="0.5" y="0.0752688" />
+                                <point x="0.842593" y="0.182796" />
+                                <point x="0.888889" y="0.494624" />
+                                <point x="0.805556" y="0.774194" />
+                                <point x="0.5" y="0.849462" />
+                                <point x="0.185185" y="0.784946" />
+                                <point x="0.0925926" y="0.494624" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="arrow_left" sid="421091623086497">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="639775479850250" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\RomanPC\Desktop\Global Game Jam\Monster Game\UI\left.png">
+                            <collision-poly>
+                                <point x="0.157407" y="0.184783" />
+                                <point x="0.5" y="0.0652174" />
+                                <point x="0.87037" y="0.152174" />
+                                <point x="0.907407" y="0.5" />
+                                <point x="0.814815" y="0.782609" />
+                                <point x="0.5" y="0.847826" />
+                                <point x="0.194444" y="0.771739" />
+                                <point x="0.111111" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="back" sid="584706068197258">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="951764475846334" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\RomanPC\Desktop\Global Game Jam\Monster Game\UI\back.png">
+                            <collision-poly>
+                                <point x="0.153061" y="0.163043" />
+                                <point x="0.5" y="0.0326087" />
+                                <point x="0.846939" y="0.163043" />
+                                <point x="0.918367" y="0.5" />
+                                <point x="0.795918" y="0.782609" />
+                                <point x="0.5" y="0.847826" />
+                                <point x="0.234694" y="0.75" />
+                                <point x="0.102041" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-folder name="06">
+            <object-type name="06_body" sid="829933447039524">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="416777209016678" speed="5">
+                        <frame duration="1" hotspotX="0.498978" hotspotY="0.967742" original-source="C:\Users\RomanPC\Desktop\Global Game Jam\Monster Game\monster 06\06_body.png">
+                            <collision-poly>
+                                <point x="0.216769" y="0.255914" />
+                                <point x="0.501023" y="0.0666667" />
+                                <point x="0.785276" y="0.255914" />
+                                <point x="0.860941" y="0.554839" />
+                                <point x="0.740286" y="0.806452" />
+                                <point x="0.501023" y="0.834409" />
+                                <point x="0.259714" y="0.808602" />
+                                <point x="0.137014" y="0.554839" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="06_bg" sid="519380847279564">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="570531347175025" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\RomanPC\Desktop\Global Game Jam\Monster Game\monster 06\06_bg.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-folder name="07">
+            <object-type name="07_bg" sid="956814043318673">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="343123452920868" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\RomanPC\Desktop\Global Game Jam\Monster Game\monster 07\07_bg.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="07_body" sid="906366778267597">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="132550899975736" speed="5">
+                        <frame duration="1" hotspotX="0.498886" hotspotY="0.961924" original-source="C:\Users\RomanPC\Desktop\Global Game Jam\Monster Game\monster 07\07_body.png">
+                            <collision-poly>
+                                <point x="0.253898" y="0.276553" />
+                                <point x="0.501114" y="0.12024" />
+                                <point x="0.746102" y="0.278557" />
+                                <point x="0.986637" y="0.498998" />
+                                <point x="0.826281" y="0.791583" />
+                                <point x="0.501114" y="0.809619" />
+                                <point x="0.178174" y="0.789579" />
+                                <point x="0.013363" y="0.498998" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-folder name="08">
+            <object-type name="08_body" sid="588337591306511">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="658482284354276" speed="5">
+                        <frame duration="1" hotspotX="0.501048" hotspotY="0.966605" original-source="C:\Users\RomanPC\Desktop\Global Game Jam\Monster Game\monster 08\08_body.png">
+                            <collision-poly>
+                                <point x="0.1174" y="0.148423" />
+                                <point x="0.501048" y="0.0538033" />
+                                <point x="0.8826" y="0.150278" />
+                                <point x="0.878407" y="0.487941" />
+                                <point x="0.926625" y="0.864564" />
+                                <point x="0.501048" y="0.994434" />
+                                <point x="0.0733753" y="0.866419" />
+                                <point x="0.121593" y="0.487941" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="08_bg" sid="646278840521002">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="581355478785004" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\RomanPC\Desktop\Global Game Jam\Monster Game\monster 08\08_bg.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-folder name="09">
+            <object-type name="09_bg" sid="878050757664226">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="868895909977470" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\RomanPC\Desktop\Global Game Jam\Monster Game\Monster 09\09_bg.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="09_body" sid="159796274886086">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="746009771585501" speed="5">
+                        <frame duration="1" hotspotX="0.50641" hotspotY="0.955556" original-source="C:\Users\RomanPC\Desktop\Global Game Jam\Monster Game\Monster 09\09_body.png">
+                            <collision-poly>
+                                <point x="0.0583498" y="0.233333" />
+                                <point x="0.505424" y="0" />
+                                <point x="0.945924" y="0.238272" />
+                                <point x="1" y="0.569136" />
+                                <point x="0.899901" y="0.865432" />
+                                <point x="0.505424" y="1" />
+                                <point x="0.107659" y="0.867901" />
+                                <point x="0" y="0.569136" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-folder name="10">
+            <object-type name="10_bg" sid="323051064257026">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="197254178629882" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\RomanPC\Desktop\Global Game Jam\Monster Game\monster 10\10_bg.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="10_body" sid="379983320044051">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="565335649248677" speed="5">
+                        <frame duration="1" hotspotX="0.497076" hotspotY="0.970085" original-source="C:\Users\RomanPC\Desktop\Global Game Jam\Monster Game\monster 10\10_body.png">
+                            <collision-poly>
+                                <point x="0.241715" y="0.224359" />
+                                <point x="0.500975" y="0.0042735" />
+                                <point x="0.760234" y="0.224359" />
+                                <point x="0.88694" y="0.508547" />
+                                <point x="0.701754" y="0.728632" />
+                                <point x="0.500975" y="0.826923" />
+                                <point x="0.300195" y="0.728632" />
+                                <point x="0.11501" y="0.508547" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-folder name="11">
+            <object-type name="11_bg" sid="584158027049371">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="935287645940196" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\RomanPC\Desktop\Global Game Jam\Monster Game\monster 11\11_bg.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="11_body" sid="499453417253289">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="450001691824868" speed="5">
+                        <frame duration="1" hotspotX="0.504644" hotspotY="0.970149" original-source="C:\Users\RomanPC\Desktop\Global Game Jam\Monster Game\monster 11\11_body.png">
+                            <collision-poly>
+                                <point x="0.294118" y="0.215352" />
+                                <point x="0.501548" y="0.00426439" />
+                                <point x="0.705882" y="0.219616" />
+                                <point x="0.888545" y="0.501066" />
+                                <point x="0.702786" y="0.778252" />
+                                <point x="0.501548" y="0.848614" />
+                                <point x="0.298762" y="0.780384" />
+                                <point x="0.111455" y="0.501066" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-folder name="12">
+            <object-type name="12_bg" sid="136972121757774">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="114674732425894" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\RomanPC\Desktop\Global Game Jam\Monster Game\monster 12\12_bg.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="12_body" sid="469894426285387">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="513664841794189" speed="5">
+                        <frame duration="1" hotspotX="0.503279" hotspotY="0.982249" original-source="C:\Users\RomanPC\Desktop\Global Game Jam\Monster Game\monster 12\12_body.png">
+                            <collision-poly>
+                                <point x="0.285246" y="0.254438" />
+                                <point x="0.501639" y="0.136095" />
+                                <point x="0.703279" y="0.272189" />
+                                <point x="0.895082" y="0.514793" />
+                                <point x="0.72459" y="0.783037" />
+                                <point x="0.501639" y="0.893491" />
+                                <point x="0.277049" y="0.78501" />
+                                <point x="0.106557" y="0.514793" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-folder name="13">
+            <object-type name="13_body" sid="843804631858362">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="950972461978675" speed="5">
+                        <frame duration="1" hotspotX="0.498611" hotspotY="0.851389" original-source="C:\Users\RomanPC\Desktop\Global Game Jam\Monster Game\monster 13\13_body.png">
+                            <collision-poly>
+                                <point x="0.2875" y="0.2875" />
+                                <point x="0.5" y="0.197222" />
+                                <point x="0.713889" y="0.286111" />
+                                <point x="0.7125" y="0.5" />
+                                <point x="0.770833" y="0.770833" />
+                                <point x="0.5" y="0.890278" />
+                                <point x="0.229167" y="0.770833" />
+                                <point x="0.286111" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="13_bg" sid="740363999285830">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="836844911225606" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\RomanPC\Desktop\Global Game Jam\Monster Game\monster 13\13_bg.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-type name="Touch" sid="559251525965617">
+            <plugin id="Touch" />
+        </object-type>
+        <object-type name="Browser" sid="443708599855652">
+            <plugin id="Browser" />
+        </object-type>
+        <object-type name="Audio" sid="863347867841989">
+            <plugin id="Audio" />
+        </object-type>
+        <object-type name="sad_face" sid="331152366689982">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="113339057745561" speed="5">
+                    <frame duration="1" hotspotX="0.503876" hotspotY="0.5" original-source="C:\Users\RomanPC\Desktop\Global Game JAm\Monster Game\sad_face.png">
+                        <collision-poly>
+                            <point x="0.0310078" y="0.0338983" />
+                            <point x="0.496124" y="0.694915" />
+                            <point x="0.96124" y="0.0423729" />
+                            <point x="0.976744" y="0.974576" />
+                            <point x="0.496124" y="0.771186" />
+                            <point x="0.0155039" y="0.983051" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Mouse" sid="456673408642121">
+            <plugin id="Mouse" />
+        </object-type>
+        <object-type name="SliderBar" sid="703016243781885">
+            <plugin id="sliderbar" />
+        </object-type>
+        <object-type name="romanrios2" sid="206851640543862">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="306073124828085" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.516129" original-source="C:\Users\RomanPC\Desktop\Global Game Jam\Monster Game\romanrios.png">
+                        <collision-poly>
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="GGJ_logo" sid="743748967650319">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="569336995861980" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.504587" original-source="C:\Users\RomanPC\Desktop\Global Game Jam\Monster Game\GGJ_logo.png">
+                        <collision-poly>
+                            <point x="0.323232" y="0.587156" />
+                            <point x="0.5" y="0.0183486" />
+                            <point x="0.762626" y="0.431193" />
+                            <point x="0.782828" y="0.495413" />
+                            <point x="0.949495" y="0.908257" />
+                            <point x="0.5" y="0.93578" />
+                            <point x="0.0353535" y="0.93578" />
+                            <point x="0.29798" y="0.495413" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="SliderBar2" sid="967714553539897">
+            <plugin id="sliderbar" />
+        </object-type>
+        <object-type name="AllEyes" sid="952024494865697">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="13" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="683663443615529" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.155844" y="0.155844" />
+                            <point x="0.493506" y="0.012987" />
+                            <point x="0.844156" y="0.155844" />
+                            <point x="0.974026" y="0.493506" />
+                            <point x="0.844156" y="0.844156" />
+                            <point x="0.493506" y="0.974026" />
+                            <point x="0.168831" y="0.831169" />
+                            <point x="0.025974" y="0.493506" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.505747" hotspotY="0.505747">
+                        <collision-poly>
+                            <point x="0.172414" y="0.172414" />
+                            <point x="0.494253" y="0.0229885" />
+                            <point x="0.83908" y="0.16092" />
+                            <point x="0.977012" y="0.494253" />
+                            <point x="0.83908" y="0.83908" />
+                            <point x="0.494253" y="0.977012" />
+                            <point x="0.16092" y="0.83908" />
+                            <point x="0.0229885" y="0.494253" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.509615" hotspotY="0.509615">
+                        <collision-poly>
+                            <point x="0.163462" y="0.163462" />
+                            <point x="0.5" y="0.00961538" />
+                            <point x="0.846154" y="0.153846" />
+                            <point x="0.980769" y="0.5" />
+                            <point x="0.846154" y="0.846154" />
+                            <point x="0.5" y="0.990385" />
+                            <point x="0.153846" y="0.846154" />
+                            <point x="0.0192308" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.509259" hotspotY="0.504505">
+                        <collision-poly>
+                            <point x="0.157407" y="0.153153" />
+                            <point x="0.5" y="0.018018" />
+                            <point x="0.833333" y="0.162162" />
+                            <point x="0.981481" y="0.495495" />
+                            <point x="0.833333" y="0.837838" />
+                            <point x="0.5" y="0.981982" />
+                            <point x="0.157407" y="0.846847" />
+                            <point x="0.00925926" y="0.495495" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.506494" hotspotY="0.506494">
+                        <collision-poly>
+                            <point x="0.155844" y="0.155844" />
+                            <point x="0.493506" y="0.012987" />
+                            <point x="0.844156" y="0.155844" />
+                            <point x="0.974026" y="0.493506" />
+                            <point x="0.844156" y="0.844156" />
+                            <point x="0.493506" y="0.974026" />
+                            <point x="0.168831" y="0.831169" />
+                            <point x="0.025974" y="0.493506" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.504425" hotspotY="0.508929">
+                        <collision-poly>
+                            <point x="0.159292" y="0.160714" />
+                            <point x="0.495575" y="0.0178571" />
+                            <point x="0.840708" y="0.160714" />
+                            <point x="0.982301" y="0.5" />
+                            <point x="0.840708" y="0.839286" />
+                            <point x="0.495575" y="0.973214" />
+                            <point x="0.168142" y="0.830357" />
+                            <point x="0.0265487" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.506849">
+                        <collision-poly>
+                            <point x="0.162162" y="0.164384" />
+                            <point x="0.5" y="0.0273973" />
+                            <point x="0.851351" y="0.150685" />
+                            <point x="0.986486" y="0.493151" />
+                            <point x="0.851351" y="0.849315" />
+                            <point x="0.5" y="0.986301" />
+                            <point x="0.162162" y="0.835616" />
+                            <point x="0.0405405" y="0.493151" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.508197" hotspotY="0.507576">
+                        <collision-poly>
+                            <point x="0.172131" y="0.159091" />
+                            <point x="0.5" y="0.0227273" />
+                            <point x="0.836066" y="0.151515" />
+                            <point x="0.991803" y="0.5" />
+                            <point x="0.836066" y="0.848485" />
+                            <point x="0.5" y="0.984848" />
+                            <point x="0.180328" y="0.833333" />
+                            <point x="0.0409836" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.506329" hotspotY="0.505618">
+                        <collision-poly>
+                            <point x="0.189873" y="0.168539" />
+                            <point x="0.493671" y="0.0224719" />
+                            <point x="0.797468" y="0.179775" />
+                            <point x="0.962025" y="0.494382" />
+                            <point x="0.797468" y="0.820225" />
+                            <point x="0.493671" y="0.966292" />
+                            <point x="0.0632911" y="0.94382" />
+                            <point x="0.0506329" y="0.494382" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.508772" hotspotY="0.509091">
+                        <collision-poly>
+                            <point x="0.157895" y="0.163636" />
+                            <point x="0.5" y="0.0181818" />
+                            <point x="0.842105" y="0.163636" />
+                            <point x="0.982456" y="0.5" />
+                            <point x="0.842105" y="0.836364" />
+                            <point x="0.5" y="0.990909" />
+                            <point x="0.157895" y="0.836364" />
+                            <point x="0.0175439" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.505263" hotspotY="0.505155">
+                        <collision-poly>
+                            <point x="0.168421" y="0.164948" />
+                            <point x="0.494737" y="0.0309278" />
+                            <point x="0.842105" y="0.154639" />
+                            <point x="0.989474" y="0.494845" />
+                            <point x="0.852632" y="0.85567" />
+                            <point x="0.494737" y="1" />
+                            <point x="0.157895" y="0.845361" />
+                            <point x="0.0315789" y="0.494845" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.504065" hotspotY="0.504202">
+                        <collision-poly>
+                            <point x="0.170732" y="0.176471" />
+                            <point x="0.495935" y="0.0420168" />
+                            <point x="0.845528" y="0.159664" />
+                            <point x="0.98374" y="0.495798" />
+                            <point x="0.845528" y="0.840336" />
+                            <point x="0.495935" y="0.991597" />
+                            <point x="0.130081" y="0.865546" />
+                            <point x="0.0487805" y="0.495798" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.170455" y="0.166667" />
+                            <point x="0.5" y="0.0222222" />
+                            <point x="0.840909" y="0.155556" />
+                            <point x="0.988636" y="0.5" />
+                            <point x="0.852273" y="0.855556" />
+                            <point x="0.5" y="0.988889" />
+                            <point x="0.170455" y="0.833333" />
+                            <point x="0.0340909" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="EyeAct" sid="864974420067567">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="365415617963592" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.504854" original-source="C:\Users\RomanPC\Desktop\Global Game Jam\Monster Game\EyeAct.png">
+                        <collision-poly>
+                            <point x="0.154545" y="0.165049" />
+                            <point x="0.5" y="0.00970874" />
+                            <point x="0.845455" y="0.165049" />
+                            <point x="0.909091" y="0.495146" />
+                            <point x="0.781818" y="0.76699" />
+                            <point x="0.5" y="0.834951" />
+                            <point x="0.236364" y="0.747573" />
+                            <point x="0.1" y="0.495146" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="AllEyes2" sid="374881179946336">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="13" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="492010283837103" speed="5">
+                    <frame duration="1" hotspotX="0.511628" hotspotY="0.511628">
+                        <collision-poly>
+                            <point x="0.155844" y="0.155844" />
+                            <point x="0.493506" y="0.012987" />
+                            <point x="0.844156" y="0.155844" />
+                            <point x="0.974026" y="0.493506" />
+                            <point x="0.844156" y="0.844156" />
+                            <point x="0.493506" y="0.974026" />
+                            <point x="0.168831" y="0.831169" />
+                            <point x="0.025974" y="0.493506" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.505747" hotspotY="0.505747">
+                        <collision-poly>
+                            <point x="0.172414" y="0.172414" />
+                            <point x="0.494253" y="0.0229885" />
+                            <point x="0.83908" y="0.16092" />
+                            <point x="0.977012" y="0.494253" />
+                            <point x="0.83908" y="0.83908" />
+                            <point x="0.494253" y="0.977012" />
+                            <point x="0.16092" y="0.83908" />
+                            <point x="0.0229885" y="0.494253" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.509615" hotspotY="0.509615">
+                        <collision-poly>
+                            <point x="0.163462" y="0.163462" />
+                            <point x="0.5" y="0.00961538" />
+                            <point x="0.846154" y="0.153846" />
+                            <point x="0.980769" y="0.5" />
+                            <point x="0.846154" y="0.846154" />
+                            <point x="0.5" y="0.990385" />
+                            <point x="0.153846" y="0.846154" />
+                            <point x="0.0192308" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.509259" hotspotY="0.504505">
+                        <collision-poly>
+                            <point x="0.157407" y="0.153153" />
+                            <point x="0.5" y="0.018018" />
+                            <point x="0.833333" y="0.162162" />
+                            <point x="0.981481" y="0.495495" />
+                            <point x="0.833333" y="0.837838" />
+                            <point x="0.5" y="0.981982" />
+                            <point x="0.157407" y="0.846847" />
+                            <point x="0.00925926" y="0.495495" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.506494" hotspotY="0.506494">
+                        <collision-poly>
+                            <point x="0.155844" y="0.155844" />
+                            <point x="0.493506" y="0.012987" />
+                            <point x="0.844156" y="0.155844" />
+                            <point x="0.974026" y="0.493506" />
+                            <point x="0.844156" y="0.844156" />
+                            <point x="0.493506" y="0.974026" />
+                            <point x="0.168831" y="0.831169" />
+                            <point x="0.025974" y="0.493506" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.504425" hotspotY="0.508929">
+                        <collision-poly>
+                            <point x="0.159292" y="0.160714" />
+                            <point x="0.495575" y="0.0178571" />
+                            <point x="0.840708" y="0.160714" />
+                            <point x="0.982301" y="0.5" />
+                            <point x="0.840708" y="0.839286" />
+                            <point x="0.495575" y="0.973214" />
+                            <point x="0.168142" y="0.830357" />
+                            <point x="0.0265487" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.506849">
+                        <collision-poly>
+                            <point x="0.162162" y="0.164384" />
+                            <point x="0.5" y="0.0273973" />
+                            <point x="0.851351" y="0.150685" />
+                            <point x="0.986486" y="0.493151" />
+                            <point x="0.851351" y="0.849315" />
+                            <point x="0.5" y="0.986301" />
+                            <point x="0.162162" y="0.835616" />
+                            <point x="0.0405405" y="0.493151" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.508197" hotspotY="0.507576">
+                        <collision-poly>
+                            <point x="0.172131" y="0.159091" />
+                            <point x="0.5" y="0.0227273" />
+                            <point x="0.836066" y="0.151515" />
+                            <point x="0.991803" y="0.5" />
+                            <point x="0.836066" y="0.848485" />
+                            <point x="0.5" y="0.984848" />
+                            <point x="0.180328" y="0.833333" />
+                            <point x="0.0409836" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.506329" hotspotY="0.505618">
+                        <collision-poly>
+                            <point x="0.189873" y="0.168539" />
+                            <point x="0.493671" y="0.0224719" />
+                            <point x="0.797468" y="0.179775" />
+                            <point x="0.962025" y="0.494382" />
+                            <point x="0.797468" y="0.820225" />
+                            <point x="0.493671" y="0.966292" />
+                            <point x="0.0632911" y="0.94382" />
+                            <point x="0.0506329" y="0.494382" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.508772" hotspotY="0.509091">
+                        <collision-poly>
+                            <point x="0.157895" y="0.163636" />
+                            <point x="0.5" y="0.0181818" />
+                            <point x="0.842105" y="0.163636" />
+                            <point x="0.982456" y="0.5" />
+                            <point x="0.842105" y="0.836364" />
+                            <point x="0.5" y="0.990909" />
+                            <point x="0.157895" y="0.836364" />
+                            <point x="0.0175439" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.505263" hotspotY="0.505155">
+                        <collision-poly>
+                            <point x="0.168421" y="0.164948" />
+                            <point x="0.494737" y="0.0309278" />
+                            <point x="0.842105" y="0.154639" />
+                            <point x="0.989474" y="0.494845" />
+                            <point x="0.852632" y="0.85567" />
+                            <point x="0.494737" y="1" />
+                            <point x="0.157895" y="0.845361" />
+                            <point x="0.0315789" y="0.494845" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.504065" hotspotY="0.504202">
+                        <collision-poly>
+                            <point x="0.170732" y="0.176471" />
+                            <point x="0.495935" y="0.0420168" />
+                            <point x="0.845528" y="0.159664" />
+                            <point x="0.98374" y="0.495798" />
+                            <point x="0.845528" y="0.840336" />
+                            <point x="0.495935" y="0.991597" />
+                            <point x="0.130081" y="0.865546" />
+                            <point x="0.0487805" y="0.495798" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.170455" y="0.166667" />
+                            <point x="0.5" y="0.0222222" />
+                            <point x="0.840909" y="0.155556" />
+                            <point x="0.988636" y="0.5" />
+                            <point x="0.852273" y="0.855556" />
+                            <point x="0.5" y="0.988889" />
+                            <point x="0.170455" y="0.833333" />
+                            <point x="0.0340909" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="EyeAct2" sid="978054199858740">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="818375089999868" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.504854" original-source="C:\Users\RomanPC\Desktop\Global Game Jam\Monster Game\EyeAct.png">
+                        <collision-poly>
+                            <point x="0.154545" y="0.165049" />
+                            <point x="0.5" y="0.00970874" />
+                            <point x="0.845455" y="0.165049" />
+                            <point x="0.909091" y="0.495146" />
+                            <point x="0.781818" y="0.76699" />
+                            <point x="0.5" y="0.834951" />
+                            <point x="0.236364" y="0.747573" />
+                            <point x="0.1" y="0.495146" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="bodycolor" sid="742507774154749">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="757978289709746" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\RomanPC\Desktop\Global Game Jam\Monster Game\bodycolor.png">
+                        <collision-poly>
+                            <point x="0.017094" y="0.16" />
+                            <point x="0.5" y="0" />
+                            <point x="0.982906" y="0.16" />
+                            <point x="0.995726" y="0.48" />
+                            <point x="0.978632" y="0.8" />
+                            <point x="0.5" y="0.96" />
+                            <point x="0.0213675" y="0.8" />
+                            <point x="0.0042735" y="0.48" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="backgroundColor" sid="266808842964167">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="792511029292795" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.52381" original-source="C:\Users\RomanPC\Desktop\Global Game Jam\Monster Game\background color.png">
+                        <collision-poly>
+                            <point x="0.017094" y="0.16" />
+                            <point x="0.5" y="0" />
+                            <point x="0.982906" y="0.16" />
+                            <point x="0.995726" y="0.48" />
+                            <point x="0.978632" y="0.8" />
+                            <point x="0.5" y="0.96" />
+                            <point x="0.0213675" y="0.8" />
+                            <point x="0.0042735" y="0.48" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="MouthAct" sid="474522660619028">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="391162823429630" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.504854" original-source="C:\Users\RomanPC\Desktop\Global Game Jam\Monster Game\MouthAct.png">
+                        <collision-poly>
+                            <point x="0.145455" y="0.15534" />
+                            <point x="0.5" y="0.00970874" />
+                            <point x="0.845455" y="0.165049" />
+                            <point x="0.909091" y="0.495146" />
+                            <point x="0.781818" y="0.76699" />
+                            <point x="0.5" y="0.834951" />
+                            <point x="0.236364" y="0.747573" />
+                            <point x="0.1" y="0.495146" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="AllMouths" sid="713888569853484">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="12" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="738702612963482" speed="5">
+                    <frame duration="1" hotspotX="0.502041" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.0204082" y="0.0257732" />
+                            <point x="0.497959" y="0.252577" />
+                            <point x="0.97551" y="0.0309278" />
+                            <point x="0.918367" y="0.5" />
+                            <point x="0.836735" y="0.793814" />
+                            <point x="0.497959" y="0.989691" />
+                            <point x="0.159184" y="0.798969" />
+                            <point x="0.0734694" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\RomanPC\Desktop\Global Game Jam\Monster Game\monster 02\02_mouth.png">
+                        <collision-poly>
+                            <point x="0.0327869" y="0.0909091" />
+                            <point x="0.5" y="0.386364" />
+                            <point x="0.967213" y="0.0909091" />
+                            <point x="0.942623" y="0.5" />
+                            <point x="0.877049" y="0.659091" />
+                            <point x="0.5" y="0.954545" />
+                            <point x="0.122951" y="0.659091" />
+                            <point x="0.057377" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.506329" original-source="C:\Users\RomanPC\Desktop\Global Game Jam\Monster Game\monster 03\03_mouth.png">
+                        <collision-poly>
+                            <point x="0.0225225" y="0.0632911" />
+                            <point x="0.5" y="0.151899" />
+                            <point x="0.977477" y="0.0632911" />
+                            <point x="0.716216" y="0.493671" />
+                            <point x="0.5" y="0.974684" />
+                            <point x="0.283784" y="0.493671" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.503401" hotspotY="0.5" original-source="C:\Users\RomanPC\Desktop\Global Game Jam\Monster Game\monster 04\04_mouth.png">
+                        <collision-poly>
+                            <point x="0.0272109" y="0.0540541" />
+                            <point x="0.496599" y="0.337838" />
+                            <point x="0.986395" y="0.027027" />
+                            <point x="0.911565" y="0.5" />
+                            <point x="0.843537" y="0.689189" />
+                            <point x="0.496599" y="0.972973" />
+                            <point x="0.163265" y="0.675676" />
+                            <point x="0.102041" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.502674" hotspotY="0.505495" original-source="C:\Users\RomanPC\Desktop\Global Game Jam\Monster Game\Monster 05\05_mouth.png">
+                        <collision-poly>
+                            <point x="0.0427807" y="0.0879121" />
+                            <point x="0.497326" y="0.164835" />
+                            <point x="0.957219" y="0.0879121" />
+                            <point x="0.770053" y="0.494505" />
+                            <point x="0.770053" y="0.527473" />
+                            <point x="0.497326" y="0.978022" />
+                            <point x="0.224599" y="0.538462" />
+                            <point x="0.219251" y="0.494505" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.508475" original-source="C:\Users\RomanPC\Desktop\Global Game Jam\Monster Game\monster 06\06_mouth.png">
+                        <collision-poly>
+                            <point x="0.0159574" y="0.0508475" />
+                            <point x="0.5" y="0.525424" />
+                            <point x="0.984043" y="0.0508475" />
+                            <point x="0.898936" y="0.677966" />
+                            <point x="0.5" y="0.932203" />
+                            <point x="0.101064" y="0.677966" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.504587" original-source="C:\Users\RomanPC\Desktop\Global Game Jam\Monster Game\monster 07\07_mouth.png">
+                        <collision-poly>
+                            <point x="0.045977" y="0.0733945" />
+                            <point x="0.5" y="0.311927" />
+                            <point x="0.977012" y="0.0366972" />
+                            <point x="0.942529" y="0.495413" />
+                            <point x="0.850575" y="0.761468" />
+                            <point x="0.5" y="0.972477" />
+                            <point x="0.155172" y="0.752294" />
+                            <point x="0.0747126" y="0.495413" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.501845" hotspotY="0.504587" original-source="C:\Users\RomanPC\Desktop\Global Game Jam\Monster Game\monster 08\08_mouth.png">
+                        <collision-poly>
+                            <point x="0.0405904" y="0.100917" />
+                            <point x="0.498155" y="0.440367" />
+                            <point x="0.9631" y="0.0917431" />
+                            <point x="0.830258" y="0.577982" />
+                            <point x="0.498155" y="0.963303" />
+                            <point x="0.173432" y="0.568807" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.504587" original-source="C:\Users\RomanPC\Desktop\Global Game Jam\Monster Game\monster 09\09_mouth.png">
+                        <collision-poly>
+                            <point x="0.0755814" y="0.119266" />
+                            <point x="0.5" y="0.0825688" />
+                            <point x="0.930233" y="0.110092" />
+                            <point x="0.965116" y="0.495413" />
+                            <point x="0.854651" y="0.770642" />
+                            <point x="0.5" y="0.981651" />
+                            <point x="0.145349" y="0.770642" />
+                            <point x="0.0348837" y="0.495413" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\RomanPC\Desktop\Global Game Jam\Monster Game\monster 10\10_mouth.png">
+                        <collision-poly>
+                            <point x="0.0194175" y="0.0416667" />
+                            <point x="0.5" y="0.28125" />
+                            <point x="0.985437" y="0.03125" />
+                            <point x="0.791262" y="0.5" />
+                            <point x="0.781553" y="0.53125" />
+                            <point x="0.5" y="0.989583" />
+                            <point x="0.218447" y="0.53125" />
+                            <point x="0.213592" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\RomanPC\Desktop\Global Game Jam\Monster Game\monster 11\11_mouth.png">
+                        <collision-poly>
+                            <point x="0.048913" y="0.1125" />
+                            <point x="0.951087" y="0.1125" />
+                            <point x="0.956522" y="0.5" />
+                            <point x="0.880435" y="0.725" />
+                            <point x="0.5" y="0.975" />
+                            <point x="0.11413" y="0.7375" />
+                            <point x="0.0326087" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.503401" original-source="C:\Users\RomanPC\Desktop\Global Game Jam\Monster Game\monster 12\12_mouth.png">
+                        <collision-poly>
+                            <point x="0.0575221" y="0.0884354" />
+                            <point x="0.960177" y="0.0612245" />
+                            <point x="0.946903" y="0.496599" />
+                            <point x="0.840708" y="0.755102" />
+                            <point x="0.5" y="0.965986" />
+                            <point x="0.168142" y="0.741497" />
+                            <point x="0.0752212" y="0.496599" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+    </object-folder>
+    <families>
+        <family name="Drag" plugin-id="Sprite" sid="205202912439991">
+            <members>
+                <member>AllEyes</member>
+                <member>AllEyes2</member>
+                <member>AllMouths</member>
+            </members>
+            <behaviors>
+                <behavior-type name="DragDrop" sid="113400690673102">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+                <behavior-type name="Sine" sid="473094632140982">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+        </family>
+        <family name="Bodies" plugin-id="Sprite" sid="631198930413735">
+            <members>
+                <member>01_body</member>
+                <member>02_body</member>
+                <member>03_body</member>
+                <member>04_body</member>
+                <member>05_body</member>
+                <member>06_body</member>
+                <member>07_body</member>
+                <member>08_body</member>
+                <member>09_body</member>
+                <member>10_body</member>
+                <member>11_body</member>
+                <member>12_body</member>
+                <member>13_body</member>
+            </members>
+            <behaviors>
+                <behavior-type name="Sine" sid="439384883796981">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <effects>
+                <effect-type name="AdjustHSL">
+                    <effect id="hsladjust" />
+                </effect-type>
+            </effects>
+        </family>
+        <family name="Buttons" plugin-id="Sprite" sid="563251478333062">
+            <members>
+                <member>arrow_left</member>
+                <member>arrow_right</member>
+                <member>back</member>
+                <member>fullscreen</member>
+                <member>title_play</member>
+            </members>
+            <effects>
+                <effect-type name="Brightness">
+                    <effect id="brightness" />
+                </effect-type>
+            </effects>
+        </family>
+        <family name="Backgrounds" plugin-id="Sprite" sid="608375956340246">
+            <members>
+                <member>01_bg</member>
+                <member>02_bg</member>
+                <member>03_bg</member>
+                <member>04_bg</member>
+                <member>05_bg</member>
+                <member>06_bg</member>
+                <member>07_bg</member>
+                <member>08_bg</member>
+                <member>09_bg</member>
+                <member>10_bg</member>
+                <member>11_bg</member>
+                <member>12_bg</member>
+                <member>13_bg</member>
+            </members>
+            <effects>
+                <effect-type name="AdjustHSL">
+                    <effect id="hsladjust" />
+                </effect-type>
+            </effects>
+        </family>
+        <family name="ButtonsSwap" plugin-id="Sprite" sid="670406818731005">
+            <members>
+                <member>EyeAct</member>
+                <member>EyeAct2</member>
+                <member>MouthAct</member>
+            </members>
+            <effects>
+                <effect-type name="Brightness2">
+                    <effect id="brightness" />
+                </effect-type>
+            </effects>
+        </family>
+        <family name="CursorOver" plugin-id="Sprite" sid="468252881328985">
+            <members>
+                <member>AllEyes</member>
+                <member>AllEyes2</member>
+                <member>AllMouths</member>
+                <member>arrow_left</member>
+                <member>arrow_right</member>
+                <member>back</member>
+                <member>EyeAct</member>
+                <member>EyeAct2</member>
+                <member>fullscreen</member>
+                <member>MouthAct</member>
+                <member>romanrios2</member>
+                <member>title_play</member>
+            </members>
+        </family>
+    </families>
+    <layout-folder>
+        <layout>TitleScreen.xml</layout>
+        <layout>Layout 1.xml</layout>
+        <layout>Layout 2.xml</layout>
+        <layout>Layout 3.xml</layout>
+        <layout>Layout 4.xml</layout>
+        <layout>Layout 5.xml</layout>
+        <layout>Layout 6.xml</layout>
+        <layout>Layout 7.xml</layout>
+        <layout>Layout 8.xml</layout>
+        <layout>Layout 9.xml</layout>
+        <layout>Layout 10.xml</layout>
+        <layout>Layout 11.xml</layout>
+        <layout>Layout 12.xml</layout>
+        <layout>Layout 13.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>Event sheet 1.xml</event-sheet>
+        <event-sheet>TitleScreen.xml</event-sheet>
+        <event-sheet>Buttons.xml</event-sheet>
+        <event-sheet>Fullscreen.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Touch" uid="5">
+            <properties>
+                <use-mouse-input>Yes</use-mouse-input>
+            </properties>
+        </global-instance>
+        <global-instance type="Browser" uid="7" />
+        <global-instance type="Audio" uid="17">
+            <properties>
+                <timescale-audio>Off</timescale-audio>
+                <saveload>All</saveload>
+                <play-in-background>No</play-in-background>
+                <positioned-audio></positioned-audio>
+                <panning-model>HRTF</panning-model>
+                <distance-model>Inverse</distance-model>
+                <listener-z-height>600</listener-z-height>
+                <reference-distance>600</reference-distance>
+                <maximum-distance>10000</maximum-distance>
+                <roll-off-factor>1</roll-off-factor>
+            </properties>
+        </global-instance>
+        <global-instance type="Mouse" uid="13" />
+    </global-instances>
+    <sounds-folder>
+        <file name="monster_song.m4a" />
+        <file name="monster_song.ogg" />
+        <file name="pip.m4a" />
+        <file name="pip.ogg" />
+        <file name="pop.m4a" />
+        <file name="pop.ogg" />
+        <file name="swap.m4a" />
+        <file name="swap.ogg" />
+        <file name="buttonsound.m4a" />
+        <file name="buttonsound.ogg" />
+    </sounds-folder>
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>
