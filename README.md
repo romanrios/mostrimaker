@@ -1,8 +1,14 @@
 # 🧿 Mostri Maker
 
-Brighten up these monsters' faces by customizing them however you like! A simple and mobile-friendly game.
+Brighten up the faces of these monsters by customizing them however you like! A simple and mobile-friendly game.
+
+¡Alégrale la cara a estos monstruos personalizándolos como más te guste! Juego sencillo y compatible con dispositivos móviles.
 
 Game created for the Global Game Jam 2024. Theme: "Make me laugh".
+
+• AI-generated characters using the ideogram.ai website
+
+• Music composed in FL Studio. 
 
 Design, programming and music by Román Ríos.
 
